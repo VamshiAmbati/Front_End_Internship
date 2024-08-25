@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/20c5629a29.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="e-commerce.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>ShopName</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+          <div class="container">
+          
+            <a class="navbar-brand" href="">
+              <img
+                src="https://pngimg.com/uploads/amazon/amazon_PNG5.png"
+                class="amazon-logo"
+              />
+            </a>
+            <div class="search_bar">
+              <input class="search_input" placeholder="Search for products">
+              <span class="material-symbols-outlined search_icon"><i class="bi bi-search"></i></span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+              </svg>
+
+          </div>
+                      <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class="nav-link active" id=" navbar-text1" href="">
+                  Home
+                  <span class="sr-only">(current)</span>
+                  <a class="nav-link" id="navbar-text2" href="">Shop</a>
+
+                <a class="nav-link" id="navbar-text2" href="">Contact</a>
+                <a class="nav-link" id="navbar-text2" href="">
+                  Cart<i class="bi bi-cart3" id = "cart-image"></i>
+                </a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="34"  fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                </svg>
+
+
+                
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    
+    <main>
+    <div class="container">
+      <div class="row">
+
+        <div class="explore-section pt-5 pb-5">
+          <div class="container">
+            <div class="row">
+    
+              <div class="col-12">
+                <h1 class="section-heading">Explore Products</h1>
+              </div>
+              
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="shadow item-card p-3 mb-3">
+                  <img
+                    src="https://i.ibb.co/B4F1Kmt/jeans-wasing-denim-jean.jpg" alt="jeans-wasing-denim-jean"
+                    class="image w-100"
+                  />
+                  <h1>Denim Jeans</h1>
+                  <div class = "span-elements">
+                  <h6>₹499 </h6> 
+                  <span class = "span-el">₹1299</span>
+                </div>
+                  <a href="" class="item-link">
+                   <div class = "buttons">
+                    <button class = "add-to-cart-button button">Add to Cart</button>
+                    <button class = "add-to-cart-button button">Buy Now</button>  
+                   </div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="shadow item-card p-3 mb-3">
+                  <img
+                    src="https://i.ibb.co/C7nCQ5Y/OIP.jpg" alt="OIP"  alt="jeans-wasing-denim-jean"
+                    class="image w-100"
+                  />
+                  <h1> Men's Hoodie</h1>
+                  <div class = "span-elements">
+                    <h6>₹469 </h6> 
+                    <span class = "span-el">₹999</span>
+                  </div>                  <a href="" class="item-link">
+                    <div class = "buttons">
+                      <button class = "add-to-cart-button button">Add to Cart</button>
+                      <button class = "add-to-cart-button button">Buy Now</button>  
+                     </div>       
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="shadow item-card p-3 mb-3">
+                  <img
+                    src="https://i.ibb.co/Khn3y8B/shoe.jpg" alt="shoe" alt="OIP"  alt="jeans-wasing-denim-jean"
+                    class="image w-100"
+                  />
+                  <h1>Sneakers</h1>
+                  <div class = "span-elements">
+                    <h6>₹754 </h6> 
+                    <span class = "span-el">₹1499</span>
+                  </div>                  <a href="" class="item-link">
+                    <div class = "buttons">
+                      <button class = "add-to-cart-button button">Add to Cart</button>
+                      <button class = "add-to-cart-button button">Buy Now</button>  
+                     </div>      
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="shadow item-card p-3 mb-3">
+                  <img
+                    src="https://i.ibb.co/jrqbNKc/realme.jpg" alt="realme"
+                    class="image w-100"
+                  />
+                  <h1>Realme P1 5G</h1>
+                  <div class = "span-elements">
+                    <h6>₹15,999 </h6> 
+                    <span class = "span-el">₹17,150</span>
+                  </div>                  <a href="" class="item-link">
+                    <div class = "buttons">
+                      <button class = "add-to-cart-button button">Add to Cart</button>
+                      <button class = "add-to-cart-button button">Buy Now</button>  
+                     </div>      
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="shadow item-card p-3 mb-3">
+                  <img
+                    src="https://i.ibb.co/H4jTLS3/boxer.jpg" alt="boxer" 
+                    class="image w-100"
+                  />
+                  <h1>Brand Cargo Short</h1>
+                  <div class = "span-elements">
+                    <h6>₹349 </h6> 
+                    <span class = "span-el">₹799</span>
+                  </div>                  <a href="" class="item-link">
+                    <div class = "buttons">
+                      <button class = "add-to-cart-button button">Add to Cart</button>
+                      <button class = "add-to-cart-button button">Buy Now</button>  
+                     </div>      
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="shadow item-card p-3 mb-3">
+                  <img
+                    src="https://i.ibb.co/ygTFrrr/laptop.jpg" alt="laptop" alt="OIP"  alt="jeans-wasing-denim-jean"
+                    class="image w-100"
+                  />
+                  <h1>MacBook Air M1</h1>
+                  <div class = "span-elements">
+                    <h6>₹69,400</h6> 
+                    <span class = "span-el">₹89,500</span>
+                  </div>                  <a href="" class="item-link">
+                    <div class = "buttons">
+                      <button class = "add-to-cart-button button">Add to Cart</button>
+                      <button class = "add-to-cart-button button">Buy Now</button>  
+                     </div>         
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="shadow item-card p-3 mb-3">
+                  <img
+                    src="https://i.ibb.co/hX1M0hh/formal.jpg" alt="formal" " alt="OIP"  alt="jeans-wasing-denim-jean"
+                    class="image w-100"
+                  />
+                  <h1>Formal Shirt</h1>
+                  <div class = "span-elements">
+                    <h6>₹600 </h6> 
+                    <span class = "span-el">₹999</span>
+                  </div>                  <a href="" class="item-link">
+                    <div class = "buttons">
+                      <button class = "add-to-cart-button button">Add to Cart</button>
+                      <button class = "add-to-cart-button button">Buy Now</button>  
+                     </div>         
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="shadow item-card p-3 mb-3">
+                  <img
+                    src="https://i.ibb.co/yQNYpXV/cargo.jpg" alt="cargo" 
+                    class="image w-100"
+                  />
+                  <h1>Cargos</h1>
+                  <div class = "span-elements">
+                    <h6>₹692 </h6> 
+                    <span class = "span-el">₹1700</span>
+                  </div>                 
+                   <a href="" class="item-link">
+                    <div class = "buttons">
+                      <button class = "add-to-cart-button button">Add to Cart</button>
+                      <button class = "add-to-cart-button button">Buy Now</button>  
+                     </div>        
+                  </a>
+                </div>
+              </div>
+
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  
+
+</main>
+<footer>
+  <div class="footer_container">
+      <div class="footer_column">
+          <h3>ONLINE SHOPPING</h3>
+
+          <a href="#">Men</a>
+          <a href="#">Women</a>
+          <a href="#">Kids</a>
+          <a href="#">Home & Living</a>
+          <a href="#">Beauty</a>
+          <a href="#">Gift Card</a>
+      </div>
+
+  </div>
+  <hr>
+
+  <div class="copyright">
+      © 2024 www.amazon.com. All rights reserved.
+  </div>
+</footer>
+  </body>
+</html>
